@@ -67,6 +67,8 @@ public class DemoApplication implements CommandLineRunner //to run code in appli
         tourRepository.save(rafting);
 
         Users user1 = new Users("Basilis","Tsotos",5, UserStatusEnum.GOLD);
+        Users user2 = new Users("Georgos","kitsos",50, UserStatusEnum.PLATINUM);
+
 
 
     }
